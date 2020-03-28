@@ -10,6 +10,7 @@ const routes = express.Router();
 
 routes.get('/ongs', OngController.index);
 routes.post('/ongs',  OngController.store);
+routes.delete('/ongs/:id',  OngController.delete);
 
 routes.get('/profile', ProfileController.index);
 
@@ -17,6 +18,6 @@ routes.get('/incidents',  IncidentController.index);
 routes.post('/incidents',  IncidentController.store);
 routes.delete('/incidents/:id',  IncidentController.delete);
 
-routes.get('/sessions',  SessionController.index);
+routes.post('/sessions',  SessionController.index);
 
 module.exports = routes;

@@ -6,7 +6,7 @@ export const Container = styled.div`
   padding: 0 30px;
   margin: 32px auto;
 
-  h1{ 
+  h1 {
     margin-top: 80px;
     margin-bottom: 24px;
   }
@@ -18,7 +18,7 @@ export const Header = styled.div`
 
   span {
     font-size: 20px;
-    margin-left:24px;
+    margin-left: 24px;
   }
 
   img {
@@ -69,14 +69,14 @@ export const IssueList = styled.ul`
     padding: 24px;
     border-radius: 8px;
     position: relative;
-  
+
     button {
       position: absolute;
       right: 24px;
       top: 24px;
       border: 0;
 
-      &:hover{
+      &:hover {
         opacity: 0.8;
       }
     }
@@ -98,4 +98,3 @@ export const IssueList = styled.ul`
     }
   }
 `;
-
